@@ -7,7 +7,7 @@ const port = 3000;
 const server = https.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('content-Type', 'text/plain');
-    res.end("hello wolrd this is my firts backend program")
+    res.end("hello wolrd this is my backend program")
 });
 
 server.listen(hostname, port, () => {
