@@ -1,5 +1,4 @@
-const https = require("node:http");
-const hostname = '127.0.0.1';
+const https = require('http');
 
 const port = 3000;
 
@@ -10,8 +9,8 @@ const server = https.createServer((req, res) => {
     res.end("hello wolrd this is my backend program")
 });
 
-server.listen(hostname, port, () => {
-    console.log(`server is running at https: //${hostname}:${port}/`);
+server.listen(port, () => {
+    console.log(`server is running at https: ${port}/`);
 });
 
 // console.log("hello")
