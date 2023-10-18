@@ -17,5 +17,6 @@ server.listen(port, () => {
 // console.log("hello")
 // console.log(os.availableParallelism())
 // console.log(os.arch())
-console.log(os.cpus())
-console.log(os.cpus())
+// console.log(os.cpus())
+// console.log(os.freemem())
+console.log(os.homedir())
