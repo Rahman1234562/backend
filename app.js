@@ -1,4 +1,5 @@
 const https = require('http');
+const os = require('node:os');
 
 const port = 3000;
 
@@ -14,3 +15,7 @@ server.listen(port, () => {
 });
 
 // console.log("hello")
+// console.log(os.availableParallelism())
+// console.log(os.arch())
+console.log(os.cpus())
+console.log(os.cpus())
